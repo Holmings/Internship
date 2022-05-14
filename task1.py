@@ -14,5 +14,13 @@ def isDomainDirect(name):
             elif seller['seller_type'] == "PUBLISHER":
               print("Direct")
             break
+def MaxDepth():
+  i=0
+  for client in data['sellers']:
+    i=i+1
+  print("Max depth is: ", i)
 
-isDomainDirect(sys.argv[1])
+if sys.argv[1] == 'max':
+  MaxDepth()
+else:
+  isDomainDirect(sys.argv[1])
