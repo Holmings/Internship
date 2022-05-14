@@ -5,7 +5,7 @@ Example use:\
 python task1.py max\
 Returns the maximum depth of supply chain\
 python task1.py google.com\
-Returns if the domain is direct or indirect Seller\
+Returns if the domain is direct or indirect Seller \
 #### Task 2
 Commands:\
 --calendars\
